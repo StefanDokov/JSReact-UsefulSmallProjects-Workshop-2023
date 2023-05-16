@@ -3,6 +3,7 @@ import CustomForm from './components/CustomForm';
 import TaskList from './components/TaskList';
 import EditForm from './components/EditForm';
 import useLocalStorage from './hooks/useLocalStorage';
+import ThemeSwitcher from './components/ThemeSwitcher';
 
 
 function App() {
@@ -66,6 +67,7 @@ function App() {
        enterEditMode={enterEditMode}
        />
        )}
+       <ThemeSwitcher />
       </div>
       
     
